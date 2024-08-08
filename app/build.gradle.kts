@@ -58,4 +58,8 @@ dependencies {
     implementation(libs.com.squareup.retrofit2)
     implementation(libs.com.squareup.gson)
     implementation(libs.com.squareup.okhttp3.logging)
+    implementation(libs.androidx.room)
+    implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.room.paging)
+    ksp(libs.androidx.room.ksp)
 }
